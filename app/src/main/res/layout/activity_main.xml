@@ -9,8 +9,8 @@
         android:id="@+id/image_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/logo_text"
         app:srcCompat="@drawable/logo" />
 
     <Button
@@ -22,7 +22,7 @@
         android:layout_marginTop="100dp"
         android:background="@drawable/button"
         android:fontFamily="@font/futuhv"
-        android:text="Let's Start"
+        android:text="@string/btnStart_text"
         android:textAllCaps="false"
         android:textColor="@color/white" />
 

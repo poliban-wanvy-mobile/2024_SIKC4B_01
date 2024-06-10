@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TestAPP</string>
+    <string name="logo_text">Just Logo</string>
+    <string name="btnStart_text">Let&apos;s Start</string>
 </resources>
