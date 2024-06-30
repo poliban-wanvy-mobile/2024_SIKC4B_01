@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="<"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/futuhv"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textSize="15sp"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/futuhv"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="336dp"
+        android:layout_height="420dp"
+        android:background="@drawable/Rect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="297dp"
+            android:layout_height="125dp"
+            android:background="@drawable/phantom"
+            android:layout_marginTop="180dp"/>
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:text="@string/long_text1"
+            android:fontFamily="@font/futuhv"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:text="@string/long_text2"
+            android:fontFamily="@font/futuhv"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:text="@string/long_text3"
+            android:fontFamily="@font/futuhv"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="125dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="620dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/futuhv"
+            android:text= "About"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginEnd="50dp"/>
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="125dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="620dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/futuhv"
+            android:text= "Logout"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</RelativeLayout>
