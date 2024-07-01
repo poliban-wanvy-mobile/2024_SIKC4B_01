@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/mains"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -34,17 +34,19 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Let's "
+                android:text="@string/text_login1"
                 android:textColor="@color/black"
                 android:textSize="28sp"
+                android:layout_marginRight="10dp"
                 android:fontFamily="@font/futuhv"/>
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Start "
+                android:text="@string/text_login2"
                 android:textSize="28sp"
+                android:layout_marginRight="10dp"
                 android:textColor="@color/start_color"
                 android:fontFamily="@font/futuhv"/>
 
@@ -52,7 +54,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="a New"
+                android:text="@string/text_login3"
                 android:textSize="28sp"
                 android:textColor="@color/black"
                 android:fontFamily="@font/futuhv"/>
@@ -62,7 +64,7 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Experience"
+            android:text="@string/text_login4"
             android:textSize="28sp"
             android:textColor="@color/black"
             android:fontFamily="@font/futuhv"/>
@@ -72,7 +74,7 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="@string/Login"
         android:layout_below="@id/linearLayout"
         android:textSize="20sp"
         android:textColor="@color/black"
@@ -85,16 +87,14 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ACCOUNT INFORMATION"
+        android:text="@string/accinfo"
         android:textSize="10sp"
         android:textColor="@color/black"
         android:layout_below="@id/textView5"
         android:layout_marginLeft="24dp"
         android:textStyle="bold"
         android:layout_marginBottom="3dp"
-        android:letterSpacing="0.2">
-
-    </TextView>
+        android:letterSpacing="0.2"/>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -102,7 +102,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_below="@id/textView6"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
@@ -112,11 +113,10 @@
             android:background="@drawable/edit"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
-            android:hint="Email"
+            android:hint="@string/Email"
             android:paddingStart="18dp"
             android:paddingLeft="18dp"
-            android:textSize="14sp"
-            android:backgroundTint="@null" />
+            android:textSize="14sp"/>
 
         <EditText
             android:id="@+id/editTextTextPassword"
@@ -127,12 +127,11 @@
             android:background="@drawable/edit"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
-            android:hint="Password"
+            android:hint="@string/Password"
             android:paddingStart="18dp"
             android:paddingLeft="18dp"
             android:textSize="14sp"
-            android:layout_marginTop="10dp"
-            android:backgroundTint="@null" />
+            android:layout_marginTop="10dp"/>
     </LinearLayout>
 
     <Button
@@ -144,8 +143,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/button"
         android:fontFamily="@font/futuhv"
-        android:text= "Login"
+        android:text="@string/Login"
         android:textAllCaps="false"
-        android:textColor="@color/white" />
-
+        android:textColor="@color/white"/>
 </RelativeLayout>

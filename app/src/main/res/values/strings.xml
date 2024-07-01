@@ -1,10 +1,22 @@
 <resources>
     <string name="app_name">TestAPP</string>
     <string name="logo_text">Just Logo</string>
-    <string name="btnStart_text">Lets Start</string>
-    <string name="long_text1">Rolls-Royce has used the Phantom name on full-sized luxury cars over the past century, and is the second, longest-used automobile nameplate in the world after the Chevrolet Suburban. The Phantom is a low volume, hand-built limousine, which in earlier generations was custom built to the customers desires, and sometimes extravagant whims. As automobile manufacturing became more prolific, and vehicles from other manufacturers could be built in greater numbers and at reduced prices, the Phantom remained hand-built and production of individual models only began once the order was placed. The use of the name "phantom" is a long tradition of naming models after "ghosts".</string>
+    <string name="btnStart_text">Let\'s Start</string>
+    <string name="text_login1">Let\'s </string>
+    <string name="text_login2">Start </string>
+    <string name="text_login3">a New</string>
+    <string name="text_login4">Experience </string>
+    <string name="Login">Login</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="accinfo">ACCOUNT INFORMATION</string>
+    <string name="symbol">&lt;</string>
+    <string name="back">BACK</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="long_text1">Rolls-Royce has used the Phantom name on full-sized luxury cars over the past century, and is the second, longest-used automobile nameplate in the world after the Chevrolet Suburban. The Phantom is a low volume, hand-built limousine, which in earlier generations was custom built to the customers desires, and sometimes extravagant whims. As automobile manufacturing became more prolific, and vehicles from other manufacturers could be built in greater numbers and at reduced prices, the Phantom remained hand-built and production of individual models only began once the order was placed. The use of the name "phantom" is a long tradition of naming models after "ghosts".</string>
     <string name="long_text2">
 Earlier versions from Rolls-Royce consisted of the chassis and engine, then arrangements were made to customize the body and interior to whatever the buyer requested. The Phantom is popular with wealthy business people, royalty and celebrities who desire the best of everything, and want a car with exclusivity and elegance.</string>
     <string name="long_text3">
-During the years 1931-1998 when Rolls-Royce also manufactured Bentley vehicles, the Phantom was exclusive to Rolls-Royce and the approach to opulent vehicles wasn't shared with Bentley. When Bentley was an independent automaker, they did produce on a limited basis the Bentley 8 Litre limousine. When Rolls-Royce assumed operations and ownership, the 8 Litre was discontinued.[1] Bentley would not manufacture a limousine until 2002 when the Bentley State Limousine was presented to Elizabeth II.</string>
+During the years 1931-1998 when Rolls-Royce also manufactured Bentley vehicles, the Phantom was exclusive to Rolls-Royce and the approach to opulent vehicles wasnt shared with Bentley. When Bentley was an independent automaker, they did produce on a limited basis the Bentley 8 Litre limousine. When Rolls-Royce assumed operations and ownership, the 8 Litre was discontinued.[1] Bentley would not manufacture a limousine until 2002 when the Bentley State Limousine was presented to Elizabeth II.</string>
 </resources>
